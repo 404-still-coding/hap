@@ -1,34 +1,186 @@
 body {
     margin: 0;
+    background-color: #35363A;
+    font-family: Arial, Helvetica, sans-serif;
 }
 aside {
-    background-color: green;
-    width: 25%;
+
+    width: 20%;
     float: left;
 }
 aside p {
     margin: 0;
+    min-height: 27px;
+    text-align: center;
+    border-left: 3px solid #7f8c8d;
+    border-right: 3px solid #7f8c8d;
+    border-radius: 2px;
+    padding: 12px 0;
+    font-size: 20px;
 }
+aside p:hover {
+    background-color: #636e72;
+    color: #74b9ff;
+}
+aside a {
+    color: #f5f6fa;
+    text-decoration: none;
+    
+}
+
+aside .second {
+    padding-top: 5px;
+
+}
+aside .third {
+    padding-top: 5px;
+
+}
+aside .fourth {
+    padding-top: 5px;
+
+}
+aside .fifth {
+    padding-top: 5px;
+
+}
+aside .sixth {
+    padding-top: 5px;
+
+}
+aside .seventh {
+    padding-top: 5px;
+
+}
+aside .eighth {
+    padding-top: 5px;
+
+}
+aside .ninth {
+    padding-top: 5px;
+
+}
+
 .container {
-    width: 75%;
-    background-color: red;
+    width: 80%;
     float: right;
 
 }
-.header h1 {
+.header {
     text-align: center;
-    background-color: gray;
+    border-bottom: 2px solid #636e72;
+}
+.header header h1 {
+    color: #f5f6fa;
+    margin: 0;
+    padding: 8px 0;
 }
 .container p {
     margin: 0;
+}
+nav {
+    padding-top: 9px;
 }
 .rec {
     width: 50%;
     float: left;
     text-align: center;
 }
+.rec button {
+    padding: 8px 27px;
+    font-size: 16px;
+    color: #f5f6fa;
+    background-color: #555555;
+    border-radius: 3px;
+}
 .rep {
     width: 50%;
     float: right;
     text-align: center;
+}
+.rep button {
+    padding: 8px 27px;
+    font-size: 16px;
+    color: #f5f6fa;
+    background-color: #555555;
+    border-radius: 3px;
+}
+.verse {
+    width: 90%;
+    float: left;
+}
+
+.verse p {
+    text-align: right;
+    font-size: 35px;
+    color: #f5f6fa;
+}
+.verse .ver1 {
+    margin: 0;
+    border-bottom: 2px solid #636e72;
+    padding: 18px 0 5px 0;
+}
+.verse .ver2 {
+
+    border-bottom: 2px solid #636e72;
+    padding: 9px 0 5px 0;
+}
+.verse .ver3 {
+
+    border-bottom: 2px solid #636e72;
+    padding: 9px 0 5px 0;
+}
+.verse .ver4 {
+
+    border-bottom: 2px solid #636e72;
+    padding: 9px 0 5px 0;
+}
+.verse .ver5 {
+
+    border-bottom: 2px solid #636e72;
+    padding: 9px 0 5px 0;
+}
+.verse .ver6 {
+
+    border-bottom: 2px solid #636e72;
+    padding: 9px 0 5px 0;
+}
+.verse .ver7 {
+
+    border-bottom: 2px solid #636e72;
+    padding: 9px 0 5px 0;
+}
+.pbutton {
+    width: 10%;
+    float: right;
+    text-align: center;
+}
+.pbutton button {
+    padding: 6px 15px;
+    font-size: 16px;
+    color: #f5f6fa;
+    background-color: #555555;
+    border-radius: 3px;
+    
+}
+.pbutton .b1 {
+    padding: 26px 0 4px 0;
+}
+.pbutton .b2 {
+    padding: 11px 0 11px 0;
+}
+.pbutton .b3 {
+    padding: 11px 0 10px 0;
+}
+.pbutton .b4 {
+    padding: 11px 0 11px 0;
+}
+.pbutton .b5 {
+    padding: 11px 0 11px 0;
+}
+.pbutton .b6 {
+    padding: 11px 0 10px 0;
+}
+.pbutton .b7 {
+    padding: 11px 0 10px 0;
 }
